@@ -1,0 +1,198 @@
+<div class="container">
+  <h1 class="red-text text-darken-2">Calificación de Meseros</h1>
+
+  <div class="input-field col s12 center-align">
+    <select id="mesero" [(ngModel)]="selectedMesero">
+      <option value="" disabled selected>Seleccione el mesero</option>
+      <option *ngFor="let mesero of meseros" [ngValue]="mesero.Nombre">{{ mesero.Nombre }}</option>
+    </select>
+    <label for="mesero" class="black-text text-darken-2">Seleccione el mesero:</label>
+  </div>
+  
+  <fieldset>
+    <legend>¿Cómo fue la atención?</legend>
+    <div class="d1">
+      <p class="d2">
+        <label>
+          <input type="radio" name="atencion" [(ngModel)]="calificaciones.atencion" [value]="4" />
+          <span class="blue-text text-darken-2">Excelente</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="atencion" [(ngModel)]="calificaciones.atencion" [value]="3" />
+          <span class="blue-text text-darken-2">Buena</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="atencion" [(ngModel)]="calificaciones.atencion" [value]="2" />
+          <span class="blue-text text-darken-2">Regular</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="atencion" [(ngModel)]="calificaciones.atencion" [value]="1" />
+          <span class="blue-text text-darken-2">Mala</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="atencion" [(ngModel)]="calificaciones.atencion" [value]="0" />
+          <span class="blue-text text-darken-2">Mediocre</span>
+        </label>
+      </p>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿Cómo fue la puntualidad?</legend>
+    <div class="d1">
+      <p class="d2">
+        <label>
+          <input type="radio" name="puntualidad" [(ngModel)]="calificaciones.puntualidad" [value]="4" />
+          <span class="blue-text text-darken-2">Excelente</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="puntualidad" [(ngModel)]="calificaciones.puntualidad" [value]="3" />
+          <span class="blue-text text-darken-2">Buena</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="puntualidad" [(ngModel)]="calificaciones.puntualidad" [value]="2" />
+          <span class="blue-text text-darken-2">Regular</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="puntualidad" [(ngModel)]="calificaciones.puntualidad" [value]="1" />
+          <span class="blue-text text-darken-2">Mala</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="puntualidad" [(ngModel)]="calificaciones.puntualidad" [value]="0" />
+          <span class="blue-text text-darken-2">Mediocre</span>
+        </label>
+      </p>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿Cómo estuvo presentado el mesero?</legend>
+    <div class="d1">
+      <p class="d2">
+        <label>
+          <input type="radio" name="presentacion" [(ngModel)]="calificaciones.presentacion" [value]="4" />
+          <span class="blue-text text-darken-2">Excelente</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="presentacion" [(ngModel)]="calificaciones.presentacion" [value]="3" />
+          <span class="blue-text text-darken-2">Buena</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="presentacion" [(ngModel)]="calificaciones.presentacion" [value]="2" />
+          <span class="blue-text text-darken-2">Regular</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="presentacion" [(ngModel)]="calificaciones.presentacion" [value]="1" />
+          <span class="blue-text text-darken-2">Mala</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="presentacion" [(ngModel)]="calificaciones.presentacion" [value]="0" />
+          <span class="blue-text text-darken-2">Mediocre</span>
+        </label>
+      </p>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿Cómo fue la actitud del mesero?</legend>
+    <div class="d1">
+      <p class="d2">
+        <label>
+          <input type="radio" name="actitud" [(ngModel)]="calificaciones.actitud" [value]="4" />
+          <span class="blue-text text-darken-2">Excelente</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="actitud" [(ngModel)]="calificaciones.actitud" [value]="3" />
+          <span class="blue-text text-darken-2">Buena</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="actitud" [(ngModel)]="calificaciones.actitud" [value]="2" />
+          <span class="blue-text text-darken-2">Regular</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="actitud" [(ngModel)]="calificaciones.actitud" [value]="1" />
+          <span class="blue-text text-darken-2">Mala</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="actitud" [(ngModel)]="calificaciones.actitud" [value]="0" />
+          <span class="blue-text text-darken-2">Mediocre</span>
+        </label>
+      </p>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿Desea que le atienda el mismo mesero?</legend>
+    <div class="d1">
+      <p class="d2">
+        <label>
+          <input type="radio" name="deseo" [(ngModel)]="calificaciones.deseo" [value]="4" />
+          <span class="blue-text text-darken-2">Siempre</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="deseo" [(ngModel)]="calificaciones.deseo" [value]="3" />
+          <span class="blue-text text-darken-2">Casi Siempre</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="deseo" [(ngModel)]="calificaciones.deseo" [value]="2" />
+          <span class="blue-text text-darken-2">De vez en cuando</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="deseo" [(ngModel)]="calificaciones.deseo" [value]="1" />
+          <span class="blue-text text-darken-2">Tal vez</span>
+        </label>
+      </p>
+      <p class="d2">
+        <label>
+          <input type="radio" name="deseo" [(ngModel)]="calificaciones.deseo" [value]="0" />
+          <span class="blue-text text-darken-2">Nunca</span>
+        </label>
+      </p>
+    </div>
+  </fieldset>
+  
+  <button class="btn yellow-btn waves-effect waves-light" (click)="actualizarCalificacion()" name="action">Calificar
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+
+
+

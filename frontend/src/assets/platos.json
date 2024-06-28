@@ -1,0 +1,9 @@
+[
+    {"Nombre":"Fritada","foto":"../assets/fritada.jpg","descripcion":" 1 porcion de arroz,1 maduro cocinado, 7 papas cocinadas,","precio":3.00},
+    {"Nombre":"Fritada + Cola","foto":"../assets/fritcola.jpg","descripcion":" 1 porcion de arroz,1 maduro cocinado, 7 papas cocinadas,Cola de litro","precio":4.50},
+    {"Nombre":"Bolon+Café","foto":"../assets/bolon.jpg","descripcion":" 2 bolones,1 taza de café, aji","precio":1.50},
+    {"Nombre":"Empanadas de queso(Paquete)","foto":"../assets/Empanadas.jpg","descripcion":"6 Empanadas de queso","precio":1.50},
+    {"Nombre":"Cevichocho de Cuero","foto":"../assets/cevichocho.jpg","descripcion":"Viene con caldito,porciones de cuero,chochos y tostado,canguil","precio":1.25},
+    {"Nombre":"Encebollado","foto":"../assets/enc.jpg","descripcion":"CLasico Ecuatoriano: caldo,albacorra,cebolla,limon,calguil, chifles,etc","precio":3.00}
+
+]

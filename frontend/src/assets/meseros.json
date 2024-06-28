@@ -1,0 +1,100 @@
+[
+  {
+    "Nombre": "Luis Lopez",
+    "Edad": 37,
+    "Antiguedad": 10,
+    "Calificación": 16,
+    "Participación": 2
+  },
+  {
+    "Nombre": "Arias Luis",
+    "Edad": 19,
+    "Antiguedad": 1,
+    "Calificación": 20,
+    "Participación": 1
+  },
+  {
+    "Nombre": "Jennifez Caiza",
+    "Edad": 38,
+    "Antiguedad": 18,
+    "Calificación": 14,
+    "Participación": 1
+  },
+  {
+    "Nombre": "Carolina Maigua",
+    "Edad": 27,
+    "Antiguedad": 7,
+    "Calificación": 14.333333333333334,
+    "Participación": 3
+  },
+  {
+    "Nombre": "Mario Jiménez",
+    "Edad": 45,
+    "Antiguedad": 20,
+    "Calificación": 10,
+    "Participación": 1
+  },
+  {
+    "Nombre": "Ana Sánchez",
+    "Edad": 34,
+    "Antiguedad": 12,
+    "Calificación": 0,
+    "Participación": 0
+  },
+  {
+    "Nombre": "Pedro Gómez",
+    "Edad": 28,
+    "Antiguedad": 5,
+    "Calificación": 15,
+    "Participación": 1
+  },
+  {
+    "Nombre": "Laura Díaz",
+    "Edad": 31,
+    "Antiguedad": 9,
+    "Calificación": 0,
+    "Participación": 0
+  },
+  {
+    "Nombre": "Carlos Ruiz",
+    "Edad": 40,
+    "Antiguedad": 15,
+    "Calificación": 16,
+    "Participación": 3
+  },
+  {
+    "Nombre": "María Fernández",
+    "Edad": 22,
+    "Antiguedad": 2,
+    "Calificación": 0,
+    "Participación": 0
+  },
+  {
+    "Nombre": "David Herrera",
+    "Edad": 36,
+    "Antiguedad": 11,
+    "Calificación": 18.333333333333332,
+    "Participación": 6
+  },
+  {
+    "Nombre": "Isabel Romero",
+    "Edad": 29,
+    "Antiguedad": 6,
+    "Calificación": 19,
+    "Participación": 1
+  },
+  {
+    "Nombre": "Fernando Torres",
+    "Edad": 50,
+    "Antiguedad": 25,
+    "Calificación": 0,
+    "Participación": 0
+  },
+  {
+    "Nombre": "Sofía Martínez",
+    "Edad": 33,
+    "Antiguedad": 8,
+    "Calificación": 0,
+    "Participación": 0
+  }
+]

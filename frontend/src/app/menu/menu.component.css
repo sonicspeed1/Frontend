@@ -1,0 +1,24 @@
+.content {
+    margin-top: 38px; 
+  }
+.title{
+  color:black !important;
+  font-weight: bold;
+}
+.img{
+  height: 300px;
+  width: 300px;
+}
+.price-container {
+  text-align: center; ; 
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkgreen; 
+  text-align: center; 
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  display: inline-block; 
+}

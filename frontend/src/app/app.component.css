@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    cursor: pointer; 
+    color: darkred;
+    font-weight: bold;
+  }
+
+  h1:hover {
+    animation: bounce 2s;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }

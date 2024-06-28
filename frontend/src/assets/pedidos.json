@@ -1,0 +1,47 @@
+[
+  {
+    "Comida": "Fritada",
+    "Mesero": "dante",
+    "Precio": 3
+  },
+  {
+    "Comida": "Fritada + Cola",
+    "Mesero": "Luis Lopez",
+    "Precio": 4.5
+  },
+  {
+    "Comida": "Fritada",
+    "Mesero": "Ana Sánchez",
+    "Precio": 3
+  },
+  {
+    "Comida": "Empanadas de queso(Paquete)",
+    "Mesero": "Sofía Martínez",
+    "Precio": 1.5
+  },
+  {
+    "Comida": "Empanadas de queso(Paquete)",
+    "Mesero": "Laura Díaz",
+    "Precio": 1.5
+  },
+  {
+    "Comida": "Empanadas de queso(Paquete)",
+    "Mesero": "Ana Sánchez",
+    "Precio": 1.5
+  },
+  {
+    "Comida": "Fritada",
+    "Mesero": "Pedro Gómez",
+    "Precio": 3
+  },
+  {
+    "Comida": "Fritada",
+    "Mesero": "Mario Jiménez",
+    "Precio": 3
+  },
+  {
+    "Comida": "Fritada",
+    "Mesero": "Sofía Martínez",
+    "Precio": 3
+  }
+]
